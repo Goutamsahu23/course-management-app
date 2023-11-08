@@ -1,0 +1,416 @@
+{
+  "courses": [
+    {
+      "id": 1,
+      "name": "Introduction to React Native",
+      "instructor": "John Doe",
+      "description": "Learn the basics of React Native development and build your first mobile app.",
+      "enrollmentStatus": "Open",
+      "thumbnail": "https://cdn4.iconfinder.com/data/icons/logos-3/600/React.js_logo-512.png",
+      "duration": "8 weeks",
+      "progress": 0 ,
+      "schedule": "Tuesdays and Thursdays, 6:00 PM - 8:00 PM",
+      "location": "Online",
+
+      "prerequisites": ["Basic JavaScript knowledge", "Familiarity with React"],
+      "syllabus": [
+        {
+          "week": 1,
+          "topic": "Introduction to React Native",
+          "content": "Overview of React Native, setting up your development environment."
+        },
+        {
+          "week": 2,
+          "topic": "Building Your First App",
+          "content": "Creating a simple mobile app using React Native components."
+        }
+      ],
+      "students": [
+        {
+          "id": 101,
+          "name": "Alice Johnson",
+          "email": "alice@example.com"
+        },
+        {
+          "id": 102,
+          "name": "Bob Smith",
+          "email": "bob@example.com"
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "name": "Advanced Web Development with React",
+      "instructor": "Jane Smith",
+      "description": "Explore advanced concepts in React and build dynamic web applications.",
+      "enrollmentStatus": "Closed",
+      "thumbnail": "https://img.freepik.com/free-vector/creative-gradient-code-logo_23-2148820572.jpg?w=740&t=st=1699383214~exp=1699383814~hmac=94b988061107f2a219a6935232f452a05a51010e0eb2258e07a96af824815d1f",
+      "duration": "10 weeks",
+      "progress": 0 ,
+      "schedule": "Mondays and Wednesdays, 7:00 PM - 9:00 PM",
+      "location": "Online",
+      "prerequisites": ["Intermediate JavaScript knowledge", "Experience with React"],
+      "syllabus": [
+        {
+          "week": 1,
+          "topic": "Advanced React Components",
+          "content": "Deep dive into React component lifecycles and hooks."
+        },
+        {
+          "week": 2,
+          "topic": "State Management with Redux",
+          "content": "Managing global state using Redux and Redux Toolkit."
+        }
+      ],
+      "students": []
+    },
+    {
+      "id": 3,
+      "name": "Introduction to Python Programming",
+      "instructor": "Michael Johnson",
+      "description": "Learn the fundamentals of Python programming language.",
+      "enrollmentStatus": "In Progress",
+      "progress": 60 ,
+      "thumbnail": "https://images.unsplash.com/photo-1649180556628-9ba704115795?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8cHl0aG9uJTIwbG9nb3xlbnwwfHwwfHx8MA%3D%3D",
+      "duration": "6 weeks",
+      "schedule": "Tuesdays and Thursdays, 5:00 PM - 7:00 PM",
+      "location": "Online",
+      "prerequisites": ["None"],
+      "syllabus": [
+        {
+          "week": 1,
+          "topic": "Python Basics",
+          "content": "Introduction to variables, data types, and basic operations in Python."
+        },
+        {
+          "week": 2,
+          "topic": "Control Structures",
+          "content": "Learn about loops, conditionals, and functions in Python."
+        }
+      ],
+      "students": [
+        {
+          "id": 105,
+          "name": "Eva Wilson",
+          "email": "eva@example.com"
+        },
+        {
+          "id": 106,
+          "name": "Frank Martinez",
+          "email": "frank@example.com"
+        }
+      ]
+    },
+    {
+      "id": 4,
+      "name": "Digital Marketing Strategies",
+      "instructor": "Sophia Lee",
+      "description": "Explore effective digital marketing techniques and strategies.",
+      "enrollmentStatus": "Open",
+      "progress": 0 ,
+      "thumbnail": "https://img.freepik.com/free-vector/gradient-marketing-logo-collection_52683-74429.jpg?w=740&t=st=1699383321~exp=1699383921~hmac=67078db9cb67fc1f11e0e52de21ad01fc05874e9f0231437024dd6c562a0c06a",
+      "duration": "12 weeks",
+      "schedule": "Mondays and Wednesdays, 6:30 PM - 8:30 PM",
+      "location": "Online",
+      "prerequisites": ["Basic understanding of marketing concepts"],
+      "syllabus": [
+        {
+          "week": 1,
+          "topic": "Introduction to Digital Marketing",
+          "content": "Overview of digital marketing channels and platforms."
+        },
+        {
+          "week": 2,
+          "topic": "Search Engine Optimization (SEO)",
+          "content": "Optimizing websites for search engines and improving organic traffic."
+        }
+      ],
+      "students": [
+        {
+          "id": 107,
+          "name": "George Turner",
+          "email": "george@example.com"
+        },
+        {
+          "id": 108,
+          "name": "Hannah Brown",
+          "email": "hannah@example.com"
+        }
+      ]
+    },
+    {
+      "id": 5,
+      "name": "Introduction to Data Science with Python",
+      "instructor": "David White",
+      "description": "Learn essential data science concepts and techniques using Python.",
+      "enrollmentStatus": "Closed",
+      "progress": 100 ,
+      "thumbnail": "https://previews.123rf.com/images/essaphear/essaphear1709/essaphear170900001/86808937-data-science-logo-icon-design-vector.jpg",
+      "duration": "8 weeks",
+      "schedule": "Tuesdays and Thursdays, 7:00 PM - 9:00 PM",
+      "location": "Online",
+      "prerequisites": ["Basic knowledge of statistics and programming"],
+      "syllabus": [
+        {
+          "week": 1,
+          "topic": "Introduction to Data Science",
+          "content": "Overview of data science, data analysis, and visualization."
+        },
+        {
+          "week": 2,
+          "topic": "Data Manipulation with Pandas",
+          "content": "Working with structured data using Pandas library."
+        }
+      ],
+      "students": []
+    },
+    {
+      "id": 6,
+      "name": "Mobile App Development with Flutter",
+      "instructor": "Emily Johnson",
+      "description": "Learn cross-platform mobile app development using Flutter framework.",
+      "enrollmentStatus": "Open",
+      "progress": 0 ,
+      "thumbnail": "https://cdn.icon-icons.com/icons2/2107/PNG/512/file_type_flutter_icon_130599.png",
+      "duration": "10 weeks",
+      "schedule": "Wednesdays and Fridays, 6:30 PM - 8:30 PM",
+      "location": "Online",
+      "prerequisites": ["Basic programming knowledge"],
+      "syllabus": [
+        {
+          "week": 1,
+          "topic": "Introduction to Flutter",
+          "content": "Overview of Flutter framework and its architecture."
+        },
+        {
+          "week": 2,
+          "topic": "Building UI with Widgets",
+          "content": "Creating user interfaces using Flutter widgets."
+        }
+      ],
+      "students": [
+        {
+          "id": 111,
+          "name": "Oliver White",
+          "email": "oliver@example.com"
+        },
+        {
+          "id": 112,
+          "name": "Penelope Davis",
+          "email": "penelope@example.com"
+        }
+      ]
+    },
+    {
+      "id": 7,
+      "name": "Web Design and Development",
+      "instructor": "William Turner",
+      "description": "Master the art of web design and development with HTML, CSS, and JavaScript.",
+      "enrollmentStatus": "In Progress",
+      "progress": 59 ,
+      "thumbnail": "https://cdn.icon-icons.com/icons2/2107/PNG/512/file_type_html_icon_130541.png",
+      "duration": "12 weeks",
+      "schedule": "Tuesdays and Thursdays, 6:00 PM - 8:00 PM",
+      "location": "Online",
+      "prerequisites": ["None"],
+      "syllabus": [
+        {
+          "week": 1,
+          "topic": "HTML Basics",
+          "content": "Introduction to HTML tags and elements."
+        },
+        {
+          "week": 2,
+          "topic": "CSS Styling",
+          "content": "Styling web pages using CSS properties."
+        }
+      ],
+      "students": [
+        {
+          "id": 113,
+          "name": "Quinn Robinson",
+          "email": "quinn@example.com"
+        },
+        {
+          "id": 114,
+          "name": "Rachel Green",
+          "email": "rachel@example.com"
+        }
+      ]
+    },
+    {
+      "id": 8,
+      "name": "Machine Learning Fundamentals",
+      "instructor": "Daniel Brown",
+      "description": "Explore the basics of machine learning algorithms and techniques.",
+      "enrollmentStatus": "Closed",
+      "progress": 100 ,
+      "thumbnail": "https://nyesteventuretech.com/images/Machine-Learning.jpg",
+      "duration": "8 weeks",
+      "schedule": "Mondays and Wednesdays, 7:00 PM - 9:00 PM",
+      "location": "Online",
+      "prerequisites": ["Basic knowledge of Python programming"],
+      "syllabus": [
+        {
+          "week": 1,
+          "topic": "Introduction to Machine Learning",
+          "content": "Overview of machine learning concepts and applications."
+        },
+        {
+          "week": 2,
+          "topic": "Supervised Learning",
+          "content": "Understanding supervised learning algorithms."
+        }
+      ],
+      "students": []
+    },
+    {
+      "id": 9,
+      "name": "Digital Photography and Photo Editing",
+      "instructor": "Emma Martinez",
+      "description": "Learn photography techniques and photo editing skills using software like Photoshop.",
+      "enrollmentStatus": "Open",
+      "progress": 0 ,
+      "thumbnail": "https://w7.pngwing.com/pngs/670/371/png-transparent-adobe-photoshop-logo-thumbnail.png",
+      "duration": "6 weeks",
+      "schedule": "Fridays, 6:30 PM - 8:30 PM",
+      "location": "Online",
+      "prerequisites": ["None"],
+      "syllabus": [
+        {
+          "week": 1,
+          "topic": "Camera Basics",
+          "content": "Understanding camera settings and composition techniques."
+        },
+        {
+          "week": 2,
+          "topic": "Photo Editing with Photoshop",
+          "content": "Introduction to photo editing tools and techniques."
+        }
+      ],
+      "students": [
+        {
+          "id": 115,
+          "name": "Samuel Johnson",
+          "email": "samuel@example.com"
+        },
+        {
+          "id": 116,
+          "name": "Tara Wilson",
+          "email": "tara@example.com"
+        }
+      ]
+    },
+    {
+      "id": 10,
+      "name": "Cybersecurity Essentials",
+      "instructor": "Sophie Parker",
+      "description": "Explore essential concepts of cybersecurity and best practices for online safety.",
+      "enrollmentStatus": "In Progress",
+      "progress": 25 ,
+      "thumbnail": "https://jdimi.com/wp-content/uploads/sites/4/2022/03/Cyber-Security-PNG-Clipart.png",
+      "duration": "8 weeks",
+      "schedule": "Thursdays, 7:00 PM - 9:00 PM",
+      "location": "Online",
+      "prerequisites": ["Basic knowledge of computer networks"],
+      "syllabus": [
+        {
+          "week": 1,
+          "topic": "Introduction to Cybersecurity",
+          "content": "Overview of cybersecurity threats and vulnerabilities."
+        },
+        {
+          "week": 2,
+          "topic": "Network Security",
+          "content": "Understanding network security measures and protocols."
+        }
+      ],
+      "students": [
+        {
+          "id": 117,
+          "name": "Victor Smith",
+          "email": "victor@example.com"
+        },
+        {
+          "id": 118,
+          "name": "Wendy Turner",
+          "email": "wendy@example.com"
+        }
+      ]
+    }
+  ],
+  "students":[
+    {
+      "id": 101,
+      "name": "Alice Johnson",
+      "email": "alice@example.com",
+      "course":"Introduction to React Native"
+    },
+    {
+      "id": 102,
+      "name": "Bob Smith",
+      "email": "bob@example.com",
+      "course":"Introduction to React Native"
+    },
+    {
+      "id": 105,
+      "name": "Eva Wilson",
+      "email": "eva@example.com",
+      "course":"Introduction to Python Programming"
+    },
+    {
+      "id": 106,
+      "name": "Frank Martinez",
+      "email": "frank@example.com",
+      "course":"Introduction to Python Programming"
+    },
+    {
+      "id": 107,
+      "name": "George Turner",
+      "email": "george@example.com",
+      "course":"Introduction to Python Programming"
+    },
+    {
+      "id": 108,
+      "name": "Hannah Brown",
+      "email": "hannah@example.com",
+      "course":"Introduction to Python Programming"
+    },
+    {
+      "id": 111,
+      "name": "Oliver White",
+      "email": "oliver@example.com",
+      "course":"Digital Marketing Strategies"
+    },
+    {
+      "id": 112,
+      "name": "Penelope Davis",
+      "email": "penelope@example.com",
+      "course":"Digital Marketing Strategies"
+    },
+    {
+      "id": 113,
+      "name": "Quinn Robinson",
+      "email": "quinn@example.com",
+      "course":"Web Design and Development"
+    },
+    {
+      "id": 114,
+      "name": "Rachel Green",
+      "email": "rachel@example.com",
+      "course":"Web Design and Development"
+    },
+    {
+      "id": 115,
+      "name": "Samuel Johnson",
+      "email": "samuel@example.com",
+      "course":"Digital Photography and Photo Editing"
+    },
+    {
+      "id": 116,
+      "name": "Tara Wilson",
+      "email": "tara@example.com",
+      "course":"Digital Photography and Photo Editing"
+    }
+  ]
+}
