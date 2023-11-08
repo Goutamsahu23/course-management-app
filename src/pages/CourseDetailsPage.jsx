@@ -4,7 +4,7 @@ import StudentRegistrationForm from '../components/StudentRegistrationForm';
 
 const CourseDetailsPage = ({ courseData }) => {
     const { id } = useParams();
-    const course = courseData.find(course => course.id === parseInt(id, 10)); // Find the course with the matching ID
+    const course = courseData.find(course => course.id === parseInt(id, 10)); 
     const [selectedWeek, setSelectedWeek] = useState(null);
 
 
@@ -12,7 +12,7 @@ const CourseDetailsPage = ({ courseData }) => {
 
     const onRegister = (studentDetails) => {
         console.log('Register button clicked');
-        // Handle student registration logic here
+       
         console.log('Student registered:', studentDetails);
         setIsRegistrationOpen(false);
     };
@@ -27,7 +27,7 @@ const CourseDetailsPage = ({ courseData }) => {
 
 
     if (!course) {
-        return <div>Course not found</div>; // Handle the case where the course is not found
+        return <div>Course not found</div>;
     }
 
     const {
